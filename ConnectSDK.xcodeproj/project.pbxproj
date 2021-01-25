@@ -411,6 +411,7 @@
 		0F446CC71A6D924D000BB1C0 /* MediaLaunchObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaLaunchObject.h; sourceTree = "<group>"; };
 		0F446CC81A6D924D000BB1C0 /* MediaLaunchObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaLaunchObject.m; sourceTree = "<group>"; };
 		146A7D1A1B2896C300260441 /* FireTVIntegrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireTVIntegrationTests.m; sourceTree = "<group>"; };
+		236880A925BEC72F000075A5 /* ConnectSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ConnectSDK.podspec; sourceTree = "<group>"; };
 		440A031C1A854EDE0007E3D3 /* WebOSTVServiceSocketClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebOSTVServiceSocketClientTests.m; sourceTree = "<group>"; };
 		440A031E1A85536A0007E3D3 /* WebOSTVServiceSocketClient_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebOSTVServiceSocketClient_Private.h; sourceTree = "<group>"; };
 		44166C501B4203880052F9EC /* ConnectSDKAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectSDKAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -827,6 +828,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		236880A325BEC720000075A5 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				44E98F5E1B1E63570043BC70 /* OHHTTPStubs.framework */,
+				44E98F5D1B1E63570043BC70 /* OCMock.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		44166C511B4203880052F9EC /* ConnectSDKAcceptanceTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -1200,6 +1210,7 @@
 		EA5FB799199AEC2E0057B4B4 /* Connect SDK */ = {
 			isa = PBXGroup;
 			children = (
+				236880A925BEC72F000075A5 /* ConnectSDK.podspec */,
 				EA5F82EF199BD95800B7302B /* ConnectSDKDefaultPlatforms.h */,
 				EA5FB79C199AEC550057B4B4 /* core */,
 				EA5FB859199AEC550057B4B4 /* modules */,
@@ -1629,6 +1640,7 @@
 				EA5FB799199AEC2E0057B4B4 /* Connect SDK */,
 				EA61EB1218FE485B00D75696 /* Frameworks */,
 				EA61EB1118FE485B00D75696 /* Products */,
+				236880A325BEC720000075A5 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1893,6 +1905,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = EA61EB0718FE485B00D75696;

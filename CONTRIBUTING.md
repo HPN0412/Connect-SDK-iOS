@@ -1,4 +1,4 @@
-#Contributing to Connect SDK
+# Contributing to Connect SDK
 
 ##General Questions
 
